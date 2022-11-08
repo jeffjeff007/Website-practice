@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    background: rgba(10, 173, 173, 0.9);
+    height: 70px;
+}
+
+.name {
+    margin: 20px;
+    padding: 2px;
+}
+
+.name h2 {
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+.searchbox input {
+    width: 350px;
+    height: 30px;
+    padding: 2px;
+    border: 0.5px solid black;
+}
+
+.screentime {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+
+}
+
+.title {
+    margin-top: 35px;
+    margin-left: 40px;
+    color: rgba(61, 214, 214, 1);
+}
+
+.display {
+    background:  black;
+    margin-left: 40px;
+    width: 80%;
+    height: 85vh;
+    font: white;
+}
+.display p {
+    color: wheat;
+}
+
+
+.watchlink {
+    width: 20%;
+    background: rgba(128, 128, 128, 0.25);
+    margin-right: 40px;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+}
+
+
+.box {
+    background: lightblue;
+    margin: 10px;
+    border: 2px solid black;
+    margin-top: 10px;
+    height: 30px;
+    width: 200px;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:hover {
+    background: azure;
+    cursor: pointer;
+    transition-delay: 1ms;
+    transition-duration: 1ms;
+}
+
+.boxlink {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* -------  Season B0x -------*/
+
+.episodes {
+    display: flex;
+    align-items: center;
+    background: rgba(128, 128, 128, 0.25);
+    margin: 40px;
+    height: 55px;
+    cursor: pointer;
+}
+
+.episode:hover {
+    transition-property: background;
+    background: grey;
+}
+
+.episode {
+    margin: 5px;
+    border: 1px solid black;
+    padding: 9px;
+}
+
+
+#two {
+    margin-left: 15px;
+    color: crimson;
+    font-weight: 600;
+}
+
+
+/* ------ LINKS AND WHOLE serie info ------*/
+
+.content {
+    display: flex;
+    margin: 40px;
+    max-height: 45vh;
+}
+
+.partone {
+    display: flex;
+    width: 80%;
+    background: rgba(128, 128, 128, 0.25);
+}
+
+img {
+    padding: 10px;
+    margin-top: 5px;
+}
+
+
+
+.thelink {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.show {
+    margin: 20px;
+    padding: 10px;
+}
+
+h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.airdate {
+    color: lightslategray;
+    margin-bottom: 5px;
+}
+
+.sn {
+    padding-top: 15px;
+}
+
+.seasons {
+    display: flex;
+}
+
+.season {
+    margin: 5px;
+    border: 1px none black;
+    padding: 9px;
+    color: rgba(0, 0, 255, 0.8);
+}
+
+.season:hover {
+    transition-property: background;
+    transition-duration: 0.5ms;
+    transition-delay: 1sec;
+    background: rgba(128, 128, 128, 0.25);
+    cursor: pointer;
+}
+
+.linklist {
+    border: 1px dotted grey;
+    width: 20%;
+    background: rgba(128, 128, 128, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.linklist p {
+    border: 1px solid black;
+    padding: 5px;
+    width: 80%;
+    border-radius: 0.5em;
+    cursor: pointer;
+    background: rgba(135, 206, 250, 0.6);
+    display: flex;
+    justify-content: center;
+}
+
+.linklist p:hover {
+    background: azure;
+    transition-delay: 1ms;
+    transition-duration: 0.1ms;
+    color: purple;
+    width: 90%;
+    font-size: 15px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 35px;
+    height: 20px;
+}
+
+hr {
+    margin-top: 10px;
+}
+
+.png {
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.copyright {
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+.copyright:hover {
+    color: aqua;
+}
